@@ -11,6 +11,6 @@ import XCTest
 final class GitActionTestTests: XCTestCase {
     
     func testAssert() {
-        XCTAssert(true)
+        XCTAssert(false)
     }
 }
