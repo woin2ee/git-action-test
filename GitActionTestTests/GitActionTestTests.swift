@@ -11,6 +11,11 @@ import XCTest
 final class GitActionTestTests: XCTestCase {
     
     func testAssert() {
-        XCTAssert(true)
+        XCTAssert(executable16())
+    }
+    
+    @available(iOS 16.0, *)
+    private func executable16() -> Bool {
+        return true
     }
 }
