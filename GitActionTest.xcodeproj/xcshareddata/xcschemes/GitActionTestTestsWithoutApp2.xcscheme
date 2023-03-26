@@ -5,36 +5,6 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
-      <BuildActionEntries>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DA6F902929D0711F00BBF04C"
-               BuildableName = "GitActionTestTestsWithoutApp.xctest"
-               BlueprintName = "GitActionTestTestsWithoutApp"
-               ReferencedContainer = "container:GitActionTest.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DA6F903429D07E9500BBF04C"
-               BuildableName = "GitActionTestTestsWithoutApp2.xctest"
-               BlueprintName = "GitActionTestTestsWithoutApp2"
-               ReferencedContainer = "container:GitActionTest.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -45,16 +15,6 @@
          <TestableReference
             skipped = "NO"
             parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DA6F902929D0711F00BBF04C"
-               BuildableName = "GitActionTestTestsWithoutApp.xctest"
-               BlueprintName = "GitActionTestTestsWithoutApp"
-               ReferencedContainer = "container:GitActionTest.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DA6F903429D07E9500BBF04C"
