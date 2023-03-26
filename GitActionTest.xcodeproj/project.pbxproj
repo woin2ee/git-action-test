@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA6F902D29D0711F00BBF04C /* GitActionTestTestsWithoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6F902C29D0711F00BBF04C /* GitActionTestTestsWithoutApp.swift */; };
 		DA906A1329CF471E00535A3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA906A1229CF471E00535A3D /* AppDelegate.swift */; };
 		DA906A1529CF471E00535A3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA906A1429CF471E00535A3D /* SceneDelegate.swift */; };
 		DA906A1729CF471E00535A3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA906A1629CF471E00535A3D /* ViewController.swift */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA6F902A29D0711F00BBF04C /* GitActionTestTestsWithoutApp.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitActionTestTestsWithoutApp.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6F902C29D0711F00BBF04C /* GitActionTestTestsWithoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitActionTestTestsWithoutApp.swift; sourceTree = "<group>"; };
 		DA906A0F29CF471E00535A3D /* GitActionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitActionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA906A1229CF471E00535A3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA906A1429CF471E00535A3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +55,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DA6F902729D0711F00BBF04C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA906A0C29CF471E00535A3D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,12 +86,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA6F902B29D0711F00BBF04C /* GitActionTestTestsWithoutApp */ = {
+			isa = PBXGroup;
+			children = (
+				DA6F902C29D0711F00BBF04C /* GitActionTestTestsWithoutApp.swift */,
+			);
+			path = GitActionTestTestsWithoutApp;
+			sourceTree = "<group>";
+		};
 		DA906A0629CF471E00535A3D = {
 			isa = PBXGroup;
 			children = (
 				DA906A1129CF471E00535A3D /* GitActionTest */,
 				DA906A2829CF472000535A3D /* GitActionTestTests */,
 				DA906A3229CF472000535A3D /* GitActionTestUITests */,
+				DA6F902B29D0711F00BBF04C /* GitActionTestTestsWithoutApp */,
 				DA906A1029CF471E00535A3D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +111,7 @@
 				DA906A0F29CF471E00535A3D /* GitActionTest.app */,
 				DA906A2529CF472000535A3D /* GitActionTestTests.xctest */,
 				DA906A2F29CF472000535A3D /* GitActionTestUITests.xctest */,
+				DA6F902A29D0711F00BBF04C /* GitActionTestTestsWithoutApp.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +150,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DA6F902929D0711F00BBF04C /* GitActionTestTestsWithoutApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA6F902E29D0711F00BBF04C /* Build configuration list for PBXNativeTarget "GitActionTestTestsWithoutApp" */;
+			buildPhases = (
+				DA6F902629D0711F00BBF04C /* Sources */,
+				DA6F902729D0711F00BBF04C /* Frameworks */,
+				DA6F902829D0711F00BBF04C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitActionTestTestsWithoutApp;
+			productName = GitActionTestTestsWithoutApp;
+			productReference = DA6F902A29D0711F00BBF04C /* GitActionTestTestsWithoutApp.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		DA906A0E29CF471E00535A3D /* GitActionTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA906A3929CF472000535A3D /* Build configuration list for PBXNativeTarget "GitActionTest" */;
@@ -193,6 +230,9 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					DA6F902929D0711F00BBF04C = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					DA906A0E29CF471E00535A3D = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -222,11 +262,19 @@
 				DA906A0E29CF471E00535A3D /* GitActionTest */,
 				DA906A2429CF472000535A3D /* GitActionTestTests */,
 				DA906A2E29CF472000535A3D /* GitActionTestUITests */,
+				DA6F902929D0711F00BBF04C /* GitActionTestTestsWithoutApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DA6F902829D0711F00BBF04C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA906A0D29CF471E00535A3D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,6 +302,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DA6F902629D0711F00BBF04C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6F902D29D0711F00BBF04C /* GitActionTestTestsWithoutApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA906A0B29CF471E00535A3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -316,6 +372,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DA6F902F29D0711F00BBF04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2AVC8X7323;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woin2ee.GitActionTestTestsWithoutApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA6F903029D0711F00BBF04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2AVC8X7323;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woin2ee.GitActionTestTestsWithoutApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		DA906A3729CF472000535A3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -490,7 +578,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2AVC8X7323;
@@ -510,7 +597,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2AVC8X7323;
@@ -565,6 +651,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DA6F902E29D0711F00BBF04C /* Build configuration list for PBXNativeTarget "GitActionTestTestsWithoutApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6F902F29D0711F00BBF04C /* Debug */,
+				DA6F903029D0711F00BBF04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DA906A0A29CF471E00535A3D /* Build configuration list for PBXProject "GitActionTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
