@@ -16,6 +16,6 @@ final class GitActionTestTests: XCTestCase {
     
     @available(iOS 16.0, *)
     private func executable16() -> Bool {
-        return false
+        return true
     }
 }
